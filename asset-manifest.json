@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sign-up-form/static/css/main.7fbcd7c3.chunk.css",
+    "main.js": "/sign-up-form/static/js/main.0811967b.chunk.js",
+    "main.js.map": "/sign-up-form/static/js/main.0811967b.chunk.js.map",
+    "runtime-main.js": "/sign-up-form/static/js/runtime-main.62ee88e1.js",
+    "runtime-main.js.map": "/sign-up-form/static/js/runtime-main.62ee88e1.js.map",
+    "static/js/2.26d38d75.chunk.js": "/sign-up-form/static/js/2.26d38d75.chunk.js",
+    "static/js/2.26d38d75.chunk.js.map": "/sign-up-form/static/js/2.26d38d75.chunk.js.map",
+    "static/js/3.cfd52245.chunk.js": "/sign-up-form/static/js/3.cfd52245.chunk.js",
+    "static/js/3.cfd52245.chunk.js.map": "/sign-up-form/static/js/3.cfd52245.chunk.js.map",
+    "index.html": "/sign-up-form/index.html",
+    "static/css/main.7fbcd7c3.chunk.css.map": "/sign-up-form/static/css/main.7fbcd7c3.chunk.css.map",
+    "static/js/2.26d38d75.chunk.js.LICENSE.txt": "/sign-up-form/static/js/2.26d38d75.chunk.js.LICENSE.txt",
+    "static/media/SignUp.scss": "/sign-up-form/static/media/tick.9b0b406e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62ee88e1.js",
+    "static/js/2.26d38d75.chunk.js",
+    "static/css/main.7fbcd7c3.chunk.css",
+    "static/js/main.0811967b.chunk.js"
+  ]
+}
