@@ -1,5 +1,9 @@
 # Sign Up Form / Форма регистрации
 
+
+
+Ссылка на github-pages: https://vlapky.github.io/sign-up-form/
+
 _Написано на React с ипользованием hooks_
 
 - Форма подстраивается под размеры родительского элемента
