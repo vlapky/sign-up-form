@@ -1,0 +1,20 @@
+@mixin mainFont {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #e5e5e5;
+  // display: flex; //demo
+}
+
+.main {
+  // margin: auto; //demo
+}
+
+.result {
+  background-color: #e5e5e5;
+  @include mainFont;
+  padding: 30px;
+}
