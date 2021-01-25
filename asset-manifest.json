@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sign-up-form/static/css/main.200d052c.chunk.css",
-    "main.js": "/sign-up-form/static/js/main.d4d98ac1.chunk.js",
-    "main.js.map": "/sign-up-form/static/js/main.d4d98ac1.chunk.js.map",
+    "main.css": "/sign-up-form/static/css/main.bce9d42c.chunk.css",
+    "main.js": "/sign-up-form/static/js/main.cfb96217.chunk.js",
+    "main.js.map": "/sign-up-form/static/js/main.cfb96217.chunk.js.map",
     "runtime-main.js": "/sign-up-form/static/js/runtime-main.62ee88e1.js",
     "runtime-main.js.map": "/sign-up-form/static/js/runtime-main.62ee88e1.js.map",
-    "static/js/2.26d38d75.chunk.js": "/sign-up-form/static/js/2.26d38d75.chunk.js",
-    "static/js/2.26d38d75.chunk.js.map": "/sign-up-form/static/js/2.26d38d75.chunk.js.map",
+    "static/js/2.94e28525.chunk.js": "/sign-up-form/static/js/2.94e28525.chunk.js",
+    "static/js/2.94e28525.chunk.js.map": "/sign-up-form/static/js/2.94e28525.chunk.js.map",
     "static/js/3.cfd52245.chunk.js": "/sign-up-form/static/js/3.cfd52245.chunk.js",
     "static/js/3.cfd52245.chunk.js.map": "/sign-up-form/static/js/3.cfd52245.chunk.js.map",
     "index.html": "/sign-up-form/index.html",
-    "static/css/main.200d052c.chunk.css.map": "/sign-up-form/static/css/main.200d052c.chunk.css.map",
-    "static/js/2.26d38d75.chunk.js.LICENSE.txt": "/sign-up-form/static/js/2.26d38d75.chunk.js.LICENSE.txt",
+    "static/css/main.bce9d42c.chunk.css.map": "/sign-up-form/static/css/main.bce9d42c.chunk.css.map",
+    "static/js/2.94e28525.chunk.js.LICENSE.txt": "/sign-up-form/static/js/2.94e28525.chunk.js.LICENSE.txt",
     "static/media/SignUp.scss": "/sign-up-form/static/media/tick.9b0b406e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.62ee88e1.js",
-    "static/js/2.26d38d75.chunk.js",
-    "static/css/main.200d052c.chunk.css",
-    "static/js/main.d4d98ac1.chunk.js"
+    "static/js/2.94e28525.chunk.js",
+    "static/css/main.bce9d42c.chunk.css",
+    "static/js/main.cfb96217.chunk.js"
   ]
 }
