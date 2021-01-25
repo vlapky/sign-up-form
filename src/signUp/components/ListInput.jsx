@@ -1,11 +1,17 @@
+import { useState } from 'react'
+
 const ListInput = ({ value, onChange, id, label, placeholder, options }) => {
-  console.log(value)
+  const [view, setView] = useState(false)
+  const handleClick = () => {
+    setView(!view)
+  }
   return (
     <div className="sign-up__text-input sign-up__list-input">
       <label htmlFor={id} className="sign-up__text-input_label">
         {label}
       </label>
       <input
+        onClick={handleClick}
         autoComplete="off"
         value={value}
         type="text"
@@ -15,7 +21,14 @@ const ListInput = ({ value, onChange, id, label, placeholder, options }) => {
         placeholder={placeholder}
         className="sign-up__text-input_input sign-up__text-input_list "
       />
-      <div className="sign-up__list-input__list">
+      <div
+        className="sign-up__list-input__list"
+        style={
+          view
+            ? { opacity: 1, visibility: 'visible' }
+            : { opacity: 0, visibility: 'hidden' }
+        }
+      >
         {options.map((text, index) => (
           <div
             className="sign-up__list-input__list_item"
