@@ -57,8 +57,10 @@ const useForm = () => {
         [valid.validName]: valid.validValue,
       }))
     },
-    setLang: (e) =>
-      setFormData((prevState) => ({ ...prevState, lang: e.target.value })),
+    setLang: (e) => {
+      console.log(e)
+      setFormData((prevState) => ({ ...prevState, lang: e.target.value }))
+    },
     setRules: () =>
       setFormData((prevState) => ({ ...prevState, rules: !formData.rules })),
   }

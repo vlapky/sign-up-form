@@ -13,7 +13,33 @@
   padding-bottom: 30px;
   box-sizing: border-box;
   min-width: 360px;
-
+  &__list-input:hover .sign-up__list-input__list {
+    opacity: 1;
+    visibility: visible;
+  }
+  &__list-input {
+    position: relative;
+    &__list {
+      z-index: 1;
+      position: absolute;
+      background-color: #fff;
+      border: 1px solid #dbe2ea;
+      top: 105%;
+      width: 99.9%;
+      border-radius: 6px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s linear, visiblity 0.2s linear;
+      &_item {
+        margin: 0;
+        color: #756f86;
+        padding: 16px;
+      }
+      &_item:hover {
+        background-color: #ebf4f8;
+      }
+    }
+  }
   &__error-message {
     position: absolute;
     color: #ff7171;
