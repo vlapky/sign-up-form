@@ -19,7 +19,7 @@ const useForm = () => {
       case 'email':
         return {
           validName: 'emailValid',
-          validValue: /^\w+@\w+.\w+$/.test(value),
+          validValue: /^\w+@\w+[.]\w+$/.test(value),
         }
 
       case 'name':
@@ -30,8 +30,12 @@ const useForm = () => {
 
       case 'tel':
         return {
+          // /^[\d()-+]+$/
+          // +7(903)-123-45-67
           validName: 'telValid',
-          validValue: /^[0-9()-+]+$/.test(value),
+          validValue: /^[+]?([\d]{1})[- ]?\(?([0-9]{3})\)?[- ]?([0-9]{3})[- ]?([0-9]{2})[- ]?([0-9]{2})$/.test(
+            value
+          ),
         }
       default:
         break

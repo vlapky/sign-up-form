@@ -24,7 +24,7 @@ const TextInput = ({
         placeholder={placeholder}
         className="sign-up__text-input_input"
       />
-      <ErrorMessage valid={valid} message={ERROR} />
+      <ErrorMessage value={value} valid={valid} message={ERROR} />
     </div>
   )
 }
